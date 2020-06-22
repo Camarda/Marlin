@@ -126,7 +126,7 @@ namespace Language_pt_br {
   PROGMEM Language_Str MSG_HOTEND_OFFSET_Z                 = _UxGT("2º bico Z");
   PROGMEM Language_Str MSG_UBL_DOING_G29                   = _UxGT("Executando G29");
   PROGMEM Language_Str MSG_UBL_TOOLS                       = _UxGT("Ferramentas UBL");
-  PROGMEM Language_Str MSG_UBL_LEVEL_BED                   = _UxGT("Nível. Mesa Unif.");
+  PROGMEM Language_Str MSG_UBL_LEVEL_BED                   = _UxGT("Nivel. Mesa Unif.");
   PROGMEM Language_Str MSG_LCD_TILTING_MESH                = _UxGT("Ponto de inclinação");
   PROGMEM Language_Str MSG_UBL_MANUAL_MESH                 = _UxGT("Fazer malha manual");
   PROGMEM Language_Str MSG_UBL_BC_INSERT                   = _UxGT("Calçar e calibrar");
@@ -291,7 +291,7 @@ namespace Language_pt_br {
   PROGMEM Language_Str MSG_VMAX_E                          = _UxGT("V máx ") LCD_STR_E;
   PROGMEM Language_Str MSG_VMAX_EN                         = _UxGT("V máx *");
   PROGMEM Language_Str MSG_VMIN                            = _UxGT("V min");
-  PROGMEM Language_Str MSG_VTRAV_MIN                       = _UxGT("VDeslocamento min");
+  PROGMEM Language_Str MSG_VTRAV_MIN                       = _UxGT("V Deslocamento min");
   PROGMEM Language_Str MSG_ACCELERATION                    = _UxGT("Aceleração");
   PROGMEM Language_Str MSG_AMAX_A                          = _UxGT("A máx ") LCD_STR_A;
   PROGMEM Language_Str MSG_AMAX_B                          = _UxGT("A máx ") LCD_STR_B;
@@ -394,8 +394,7 @@ namespace Language_pt_br {
   PROGMEM Language_Str MSG_TOOL_MIGRATION                  = _UxGT("Migração de Ferramenta");
   PROGMEM Language_Str MSG_TOOL_MIGRATION_AUTO             = _UxGT("Auto-migração");
   PROGMEM Language_Str MSG_TOOL_MIGRATION_END              = _UxGT("Última Extrusora");
-  PROGMEM Language_Str MSG_TOOL_MIGRATION_SWAP             = _UxGT("Migrar para *");
-  PROGMEM Language_Str MSG_NOZZLE_STANDBY                  = _UxGT("Bico em espera");
+  PROGMEM Language_Str MSG_TOOL_MIGRATION_SWAP             = _UxGT("Migrar para *");  
   PROGMEM Language_Str MSG_FILAMENTCHANGE                  = _UxGT("Trocar Filamento");
   PROGMEM Language_Str MSG_FILAMENTCHANGE_E                = _UxGT("Trocar Filamento *");
   PROGMEM Language_Str MSG_FILAMENTLOAD                    = _UxGT("Carregar Filamento");
@@ -607,7 +606,7 @@ namespace Language_pt_br {
     PROGMEM Language_Str MSG_PAUSE_PRINT_INIT              = _UxGT(MSG_1_LINE("Iniciando..."));
     PROGMEM Language_Str MSG_FILAMENT_CHANGE_INIT          = _UxGT(MSG_1_LINE("Aguarde..."));
     PROGMEM Language_Str MSG_FILAMENT_CHANGE_INSERT        = _UxGT(MSG_1_LINE("Insira e Clique"));
-    PROGMEM Language_Str MSG_FILAMENT_CHANGE_HEAT          = _UxGT(MSG_1_LINE("Clique para Aquecer));
+    PROGMEM Language_Str MSG_FILAMENT_CHANGE_HEAT          = _UxGT(MSG_1_LINE("Clique para Aquecer"));
     PROGMEM Language_Str MSG_FILAMENT_CHANGE_HEATING       = _UxGT(MSG_1_LINE("Aquecendo..."));
     PROGMEM Language_Str MSG_FILAMENT_CHANGE_UNLOAD        = _UxGT(MSG_1_LINE("Ejetando..."));
     PROGMEM Language_Str MSG_FILAMENT_CHANGE_LOAD          = _UxGT(MSG_1_LINE("Carregando..."));
