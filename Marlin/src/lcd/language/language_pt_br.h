@@ -169,7 +169,7 @@ namespace Language_pt_br {
   PROGMEM Language_Str MSG_UBL_SIDE_POINTS                 = _UxGT("Cantos");
   PROGMEM Language_Str MSG_UBL_MAP_TYPE                    = _UxGT("Tipo de Mapa");
   PROGMEM Language_Str MSG_UBL_OUTPUT_MAP                  = _UxGT("Salvar Mapa da Malha");
-  PROGMEM Language_Str MSG_UBL_OUTPUT_MAP_HOST             = _UxGT("Enviar Para Host");
+  PROGMEM Language_Str MSG_UBL_OUTPUT_MAP_HOST             = _UxGT("Enviar para Host");
   PROGMEM Language_Str MSG_UBL_OUTPUT_MAP_CSV              = _UxGT("Salvar Malha CSV");
   PROGMEM Language_Str MSG_UBL_OUTPUT_MAP_BACKUP           = _UxGT("Salvar Backup");
   PROGMEM Language_Str MSG_UBL_INFO_UBL                    = _UxGT("Informação do UBL");
@@ -265,16 +265,6 @@ namespace Language_pt_br {
   PROGMEM Language_Str MSG_PID_BAD_EXTRUDER_NUM            = _UxGT("Ajuste falhou. Erro na Extrusora.");
   PROGMEM Language_Str MSG_PID_TEMP_TOO_HIGH               = _UxGT("Ajuste falhou. Temperatura muito alta.");
   PROGMEM Language_Str MSG_PID_TIMEOUT                     = _UxGT("Ajuste falhou! Tempo esgotado.");
-  PROGMEM Language_Str MSG_PID_P                           = _UxGT("PID-P");
-  PROGMEM Language_Str MSG_PID_P_E                         = _UxGT("PID-P *");
-  PROGMEM Language_Str MSG_PID_I                           = _UxGT("PID-I");
-  PROGMEM Language_Str MSG_PID_I_E                         = _UxGT("PID-I *");
-  PROGMEM Language_Str MSG_PID_D                           = _UxGT("PID-D");
-  PROGMEM Language_Str MSG_PID_D_E                         = _UxGT("PID-D *");
-  PROGMEM Language_Str MSG_PID_C                           = _UxGT("PID-C");
-  PROGMEM Language_Str MSG_PID_C_E                         = _UxGT("PID-C *");
-  PROGMEM Language_Str MSG_PID_F                           = _UxGT("PID-F");
-  PROGMEM Language_Str MSG_PID_F_E                         = _UxGT("PID-F *");
   PROGMEM Language_Str MSG_SELECT                          = _UxGT("Selecionar");
   PROGMEM Language_Str MSG_SELECT_E                        = _UxGT("Selecionar *");
   PROGMEM Language_Str MSG_ACC                             = _UxGT("Acel.");
@@ -566,7 +556,7 @@ namespace Language_pt_br {
   PROGMEM Language_Str MSG_REVERSE_GRADIENT                = _UxGT("Gradiente Reverso");
   PROGMEM Language_Str MSG_ACTIVE_VTOOL                    = _UxGT("Ativar V-tool");
   PROGMEM Language_Str MSG_START_VTOOL                     = _UxGT("Iniciar V-tool");
-  PROGMEM Language_Str MSG_END_VTOOL                       = _UxGT("  FInalizar V-tool");
+  PROGMEM Language_Str MSG_END_VTOOL                       = _UxGT("  Finalizar V-tool");
   PROGMEM Language_Str MSG_GRADIENT_ALIAS                  = _UxGT("Nome V-tool");
   PROGMEM Language_Str MSG_RESET_VTOOLS                    = _UxGT("Resetar V-tool");
   PROGMEM Language_Str MSG_COMMIT_VTOOL                    = _UxGT("Confirmar Misturadura V-tool");
@@ -575,10 +565,6 @@ namespace Language_pt_br {
   PROGMEM Language_Str MSG_END_Z                           = _UxGT("  Terminar Z:");
 
   PROGMEM Language_Str MSG_GAMES                           = _UxGT("Jogos");
-  PROGMEM Language_Str MSG_BRICKOUT                        = _UxGT("Brickout");
-  PROGMEM Language_Str MSG_INVADERS                        = _UxGT("Invaders");
-  PROGMEM Language_Str MSG_SNAKE                           = _UxGT("Sn4k3");
-  PROGMEM Language_Str MSG_MAZE                            = _UxGT("Maze");
 
   PROGMEM Language_Str MSG_BAD_PAGE                        = _UxGT("Índice de página inválido");
   PROGMEM Language_Str MSG_BAD_PAGE_SPEED                  = _UxGT("Veloc. de página inválida");
@@ -601,12 +587,12 @@ namespace Language_pt_br {
     PROGMEM Language_Str MSG_FILAMENT_CHANGE_CONT_PURGE    = _UxGT(MSG_2_LINE("Clique para finaliz.", "purga de filamento"));
     PROGMEM Language_Str MSG_FILAMENT_CHANGE_RESUME        = _UxGT(MSG_2_LINE("Esperando impressão", "continuar"));
   #else // LCD_HEIGHT < 4
-    PROGMEM Language_Str MSG_ADVANCED_PAUSE_WAITING        = _UxGT(MSG_1_LINE("Clique p. continuar"));
+    PROGMEM Language_Str MSG_ADVANCED_PAUSE_WAITING        = _UxGT(MSG_1_LINE("Clique p/ continuar"));
     PROGMEM Language_Str MSG_PAUSE_PRINT_PARKING           = _UxGT(MSG_1_LINE("Estacionando..."));
     PROGMEM Language_Str MSG_PAUSE_PRINT_INIT              = _UxGT(MSG_1_LINE("Iniciando..."));
     PROGMEM Language_Str MSG_FILAMENT_CHANGE_INIT          = _UxGT(MSG_1_LINE("Aguarde..."));
     PROGMEM Language_Str MSG_FILAMENT_CHANGE_INSERT        = _UxGT(MSG_1_LINE("Insira e Clique"));
-    PROGMEM Language_Str MSG_FILAMENT_CHANGE_HEAT          = _UxGT(MSG_1_LINE("Clique para Aquecer"));
+    PROGMEM Language_Str MSG_FILAMENT_CHANGE_HEAT          = _UxGT(MSG_1_LINE("Clique p/ Aquecer"));
     PROGMEM Language_Str MSG_FILAMENT_CHANGE_HEATING       = _UxGT(MSG_1_LINE("Aquecendo..."));
     PROGMEM Language_Str MSG_FILAMENT_CHANGE_UNLOAD        = _UxGT(MSG_1_LINE("Ejetando..."));
     PROGMEM Language_Str MSG_FILAMENT_CHANGE_LOAD          = _UxGT(MSG_1_LINE("Carregando..."));
