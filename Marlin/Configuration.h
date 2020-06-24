@@ -870,7 +870,7 @@
  * Use G29 repeatedly, adjusting the Z height at each point with movement commands
  * or (with LCD_BED_LEVELING) the LCD controller.
  */
-//#define PROBE_MANUALLY
+#define PROBE_MANUALLY
 //#define MANUAL_PROBE_START_Z 0.2
 
 /**
@@ -1067,7 +1067,7 @@
 
 // Invert the stepper direction. Change (or reverse the motor connector) if an axis goes the wrong way.
 #define INVERT_X_DIR false
-#define INVERT_Y_DIR true
+#define INVERT_Y_DIR false
 #define INVERT_Z_DIR false
 
 // @section extruder
